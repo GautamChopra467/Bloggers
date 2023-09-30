@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const app = express();
 const cors = require("cors");
@@ -27,7 +28,7 @@ app.use(ROUTING.ROUTE_PATH.BLOG, blogRouter);
 
 const port = 8000;
 
-var connectionString = `mongodb+srv://harshchopra467:R3ewI1qnxhHUiuFr@cluster0.7cmvxli.mongodb.net/BlogDB?retryWrites=true&w=majority`
+var connectionString = process.env.MONGO_URI;
 
 const start = async() => {
     try {
