@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.light-theme {
+    --primary-color: #E7AB79;
+    --primary-light: #EAB385;
+    --primary-lightest: #282244;
+    --primary-dark: #E19251;
+    --white-color: #2c254a;
+    --black-color: #F4EFE1;
+    --warning-color: red;
+    --para-color: #777297;
+    --input-color: #DDE3E4;
+    --input-border: #201C36;
+    --input-hover: #4F4587;
+    --input-focus: #574C94;
+    --background-secondary: #282244;
+    --background-secondary-hover: #302951;
+    --create-btn: #E39D63;
+    --create-btn-hover: #E09252;
+    --header-bg: #3B3363;
+    --info-color-light: #B0B8BF;
+    --info-color-dark: #A5AEB6;
+    --menu-link: #C7CCD1;
+    --primary-background: #282244;
+    --light-gray: #E9EBED;
+    --accept-color: #249454;
+    --reject-color: #FF3333;
+}
